@@ -232,6 +232,117 @@ class person
              
 
 }
+//OOP (object oriented programming)
+//Inheritance
+
+
+//Vehicle accord = new Vehicle();
+//accord.run();
+
+//Car camry = new Car("Toyoto Camry", "2024", "v8", "320 kph");
+//camry.run();
+//camry.stop();
+
+////Parent Class (Base Class)(Super Class)
+//public class Vehicle
+//{
+//    public string speed;
+
+//   public void run()
+//    {
+//        Console.WriteLine("Vehicle starting running");
+//    }
+//    public void stop()
+//    {
+//        Console.WriteLine("Vehicle is stopped");
+//    }
+//}
+
+////Child Class (Sub Class)(Derived Class)
+////Class car extends class
+
+//class Car : Vehicle
+//{
+
+//    public string name;
+//    public string model;
+//    public string power;
+
+//    public Car(string name, string model, string power, string speed)
+//    {
+//        this.name = name;
+//        this.model = model;
+//        this.power = power;
+//        this.speed = speed;
+//    }
+
+//    //over riding run & stop
+//    public void run()
+//    {
+//        Console.WriteLine($" {this.name} is running at {this.speed}");
+//    }
+
+//    public void stop()
+//    {
+//        Console.WriteLine($" {this.name} is stopped with drift");
+//    }
+//}
+
+//task !!!
+Vehicle accord = new Vehicle();
+accord.run();
+
+ECar tesla = new ECar("Corolla","high", "Onechargemileage");
+tesla.run();
+tesla.stop();
+
+//grand parent
+public class Vehicle
+{
+    public string speed;
+
+    public void run()
+    {
+        Console.WriteLine("starting running");
+    }
+    public void stop()
+    {
+        Console.WriteLine("is stopped");
+    }
+}
+
+//parent
+class Car : Vehicle
+{
+
+    public string name;
+  
+}
+//child
+class ECar : Car
+{
+
+    public string battery;
+    
+
+    public ECar(string name, string battery, string speed)
+    {
+        this.name = name;
+        this.battery = battery;
+        this.speed = speed;
+    }
+
+    public void run()
+    {
+        Console.WriteLine($" {this.name} is running at {this.speed} & its battery {this.battery}");
+    }
+
+    public void stop()
+    {
+        Console.WriteLine($" {this.name} is stopped low speed");
+    }
+}
+
 
 
 
