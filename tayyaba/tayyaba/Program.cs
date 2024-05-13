@@ -343,6 +343,143 @@ class ECar : Car
     }
 }
 
+//frontendDeveloper sawera = new frontendDeveloper();
+//sawera.basicDesign();
+//sawera.complexDesign();
+
+
+//backendDeveloper sawera = new backendDeveloper();
+//sawera.basicCrud();
+//sawera.complexAPIs("sawera");
+
+//FullStack full = new FullStack();
+//full.LearningSession();
+//full.basicDesign();
+//full.complexDesign();
+//full.basicCrud();
+//full.complexAPIs("sawera");
+
+manager Depart = new manager();
+manager.welcome();
+Depart.ProjectManager();
+Depart.Marketing();
+Depart.HR();
+Depart.Hr();
+Depart.IT();
+Depart.Teamleader();
+
+//interface ()
+//interface FrontEndDevelopment
+//{
+//    void basicDesign();
+//    void complexDesign();
+//}
+//interface backendDevelopment
+//{
+//    void basicCrud();
+//    void complexAPIs(string devName);
+//}
+//public class frontendDeveloper : FrontEndDevelopment
+//{
+//    public void basicDesign()
+//    {
+//        Console.WriteLine("We Will provide you a basic design using Html Css Javascript");
+//    }
+//    public void complexDesign()
+//    {
+//        Console.WriteLine("We Will provide you completeDesign using ReactJs and Vue or Nextjs");
+//    } 
+//}
+//public class backendDeveloper : backendDevelopment
+//{
+//    public void basicCrud()
+//    {
+//        Console.WriteLine("We Will provide you a basic Crud using Nodejs PHP Pyton");
+//    }
+//    public void complexAPIs(string devName)
+//    {
+//        Console.WriteLine($"{devName} Will provide you ComplexAPIs using Nodejs and Pyton");
+//    }
+//}
+
+//public class FullStack : FrontEndDevelopment  , backendDevelopment
+//{
+//    public void basicDesign()
+//    {
+//        Console.WriteLine("We Will provide you a basic design using Html Css Javascript");
+//    }
+//    public void complexDesign()
+//    {
+//        Console.WriteLine("We Will provide you completeDesign using ReactJs and Vue or Nextjs");
+//    }
+//    public void basicCrud()
+//    {
+//        Console.WriteLine("We Will provide you a basic Crud using Nodejs PHP Pyton");
+//    }
+//    public void complexAPIs(string devName)
+//    {
+//        Console.WriteLine($"{devName} Will provide you ComplexAPIs using Nodejs and Pyton");
+//    }
+//    public void LearningSession()
+//    {
+//        Console.WriteLine("Sab Parh Liya Humne ");
+//    }
+//}
+
+interface Admin
+{
+    void IT();
+    void HR();
+}
+interface IT
+{
+    void Hr();
+    void Marketing();
+}
+interface HR
+{
+    void ProjectManager();
+    void Teamleader();
+}
+
+abstract public class Office : Admin, IT, HR
+{
+    public void IT()
+    {
+        Console.WriteLine("I'm From IT Department");
+    }
+    public void HR()
+    {
+        Console.WriteLine("I'm From HR Department");
+    }
+    public void Hr()
+    {
+        Console.WriteLine("I'm From Hr Department");
+    }
+    public void Marketing()
+    {
+        Console.WriteLine("I'm From Marketing Department");
+    }
+    public void ProjectManager()
+    {
+        Console.WriteLine("I'm Project Manager");
+    }
+    public void Teamleader()
+    {
+        Console.WriteLine("I'm Teamleader");
+    }
+}
+
+public class manager : Office
+{
+    static public void welcome()
+    {
+        Console.WriteLine("Enter your name");
+      var name =  Console.ReadLine();
+        Console.WriteLine($"Welcome : {name}");
+    }
+}
+
 
 
 
