@@ -480,6 +480,108 @@ public class manager : Office
     }
 }
 
+//Access Modifier
+//Watch citizen = new Watch("CZ123",5000,"Titaniunm Black");
+//Console.WriteLine(citizen.model);
+//citizen.ShowPrice();
+//citizen.ShowColor();
+
+//SmartWatch appleWatch = new SmartWatch("Series 9", 4500, "silver",true);
+//appleWatch.ShowPrice();
+//public class Watch
+//{
+//    public string ? model;
+//    private int price;
+//    protected string ? color;
+
+//    public Watch(string model, int price, string color)
+//    {
+//        this.model = model;
+//        this.price = price;
+//        this.color = color;
+//    }
+//    public void ShowPrice()
+//    {
+
+//        Console.WriteLine (this.price);
+
+//    }
+//    public void ShowColor()
+//    {
+
+//        Console.WriteLine(this.color);
+
+//    }
+//}
+
+//public class SmartWatch : Watch
+//{
+//    public bool canCall;
+//    public SmartWatch(string model, int price, string color, bool canCall) : base(model, price, color)
+
+//    {  
+//        this.canCall = canCall; 
+//    }
+//    public void ShowWatch()
+//    {
+//        Console.WriteLine(this.model);
+//        this.ShowPrice();
+//        Console.WriteLine(this.color);
+//        Console.WriteLine(this.canCall);
+//    }
+//}
+
+//Task-!!!!!!!
+Bike honda = new Bike("Honda", 50000, "Black");
+Console.WriteLine(honda.model);
+honda.ShowPrice();
+honda.ShowColor();
+
+NewBike yamaha = new NewBike("yamaha", 45000, "blue", true);
+yamaha.ShowBike();
+public class Bike
+{
+    public string? model;
+    private int price;
+    protected string? color;
+
+    public Bike(string model, int price, string color)
+    {
+        this.model = model;
+        this.price = price;
+        this.color = color;
+    }
+    public void ShowPrice()
+    {
+
+        Console.WriteLine(this.price);
+
+    }
+    public void ShowColor()
+    {
+
+        Console.WriteLine(this.color);
+
+    }
+}
+
+public class NewBike : Bike
+{
+    public bool canCall;
+    public NewBike(string model, int price, string color, bool canCall) : base(model, price, color)
+
+    {
+        this.canCall = canCall;
+    }
+    public void ShowBike()
+    {
+        Console.WriteLine(this.model);
+        this.ShowPrice();
+        Console.WriteLine(this.color);
+        Console.WriteLine(this.canCall);
+    }
+}
+
 
 
 
