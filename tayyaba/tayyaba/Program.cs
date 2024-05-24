@@ -583,5 +583,177 @@ public class NewBike : Bike
 }
 
 
+//delegate
+
+//maths.Calculate cal;
+
+//cal = maths.add;
+//cal(50, 50);
+
+//cal = maths.sub;
+//cal(50, 60);
+
+//cal = maths.multiply;
+//cal(50, 50);
+
+//cal = maths.divided;
+//cal(50, 50);
+
+//public class maths
+//{
+//    public delegate void Calculate(double num1, double num2);
+
+//        public static void add(double num1, double num2)
+//    {
+//        Console.WriteLine(num1 + num2);
+//    }
+//    public static void sub(double num1, double num2)
+//    {
+//        Console.WriteLine(num1 - num2);
+//    }
+//    public static void multiply(double num1, double num2)
+//    {
+//        Console.WriteLine(num1 * num2);
+//    }
+//    public static void divided(double num1, double num2)
+//    {
+//        if(num1 != 0) 
+//        {  
+//            Console.WriteLine(num1 / num2);
+//        }
+//        else
+//        {
+//            Console.WriteLine("Method wrong");
+//        }
+//    }
+//}
+
+
+//Getter and setter (encapsulation)
+
+//burger majestic = new burger("Zinger", 300);
+//Console.WriteLine(majestic.name);
+//Console.WriteLine(majestic.Price);
+
+//public class burger
+//{
+//    public string name;
+//    private int price;
+//    //public int Price { get; set; } //AutoComplete property
+
+//    public int Price
+//    {
+//        get
+//        {
+//            return price;
+//        }
+//        set
+//        {
+//            if (value <= 2000) 
+//            {            
+//                price = value;
+//            }
+//            else
+//            {
+//                price = 2000;
+//            }
+//        }
+
+//    }
+
+//    public burger(string name, int price) 
+//    {
+//        this.name = name;
+//        this.price = price;
+//    }
+//}
+
+//enums (collection of constant integars);
+
+//Console.WriteLine(players.sarfraz + " has " + (int)players.sarfraz + " jersey Number ");
+//enum players
+//{
+//    saim = 55,
+//    baber = 60,
+//    rizwan = 90,
+//    sarfraz = 100,
+//    umar = 59,
+//    shoaib = 99
+//}
+
+//LINQ (Language Integrated Query)
+//Ienumerable wo collection jis m hum itration kr skty hen ek ek element m jak get b kr skty hen or set b loops lga skty hen(foreach).
+//Iqueryable wo collection jis m hum queries likh skty hen data base sy (DATABASE LIKE QUERIES CAN BE IMPLEMENTED).
+
+
+Employee emp1 = new Employee(1, "Murtaza", "Web Developer", 50000, 33, "Web");
+Employee emp2 = new Employee(2, "Arham", "Web Designer", 45000, 43, "Web");
+Employee emp3 = new Employee(3, "Noman", "Content Creator", 47000, 45, "Media");
+Employee emp4 = new Employee(4, "Furqan", "Team Lead", 70000, 53, "Web");
+Employee emp5 = new Employee(5, "Adeel", "Sales Executive", 60000, 42, "Sales");
+
+Employee emp6 = new Employee(6, "Muzammil", "Seo & Marketing officer", 57000, 46, "Marketing");
+
+List<Employee> employees = new List<Employee>();
+employees.Add(emp1);
+employees.Add(emp2);
+employees.Add(emp3);
+employees.Add(emp4);
+employees.Add(emp5);
+employees.Add(emp6);
+
+//Task
+//orderby
+
+employees = employees.OrderBy(emp => emp.name).ThenByDescending(emp => emp.id).ToList();
+
+//where
+employees = employees.Where(emp => emp.age < 33 && emp.salary >= 60000).ToList();
+
+//skip 
+employees = employees.Skip(2).ToList();
+
+
+//Aggregate function maximum salary
+Console.WriteLine(employees.Max(emp =>emp.salary));
+Employee maxSalPerson = employees.MaxBy(emp => emp.salary);
+Console.WriteLine(maxSalPerson.name + "gets" + maxSalPerson.salary);
+
+
+
+//last
+//Employee last = employees.Last(t => t.salary < 50000);
+//Console.WriteLine(last.salary);
+
+//1 ForEach
+employees.ForEach(emp => Console.WriteLine("id : {0}, name : {1}, designation : {2}, salary : {3}, age : {4}, department :{5},", emp.id, emp.name, emp.designation, emp.salary, emp.age, emp.depart));
+public class Employee
+{
+    public int id { get; set; }
+    public string name { get; set; }
+    public int salary { get; set; }
+    public string designation { get; set; }
+    public string depart { get; set; }
+    public int age { get; set; }
+
+    public Employee(int id, string name, string designation, int salary, int age, string depart)
+    {
+
+
+        this.id = id;
+        this.name = name;
+        this.designation = designation;
+        this.salary = salary;
+        this.age = age;
+        this.depart = depart;
+    }
+
+
+}
+
+
+//Lambda Expression (Arrow Function) e => e.id
+
+
 
 
