@@ -12,3 +12,17 @@ C:\Users\asp\source\repos\tayyaba\tayyaba\obj\Debug\net7.0\refint\tayyaba.dll
 C:\Users\asp\source\repos\tayyaba\tayyaba\obj\Debug\net7.0\tayyaba.pdb
 C:\Users\asp\source\repos\tayyaba\tayyaba\obj\Debug\net7.0\tayyaba.genruntimeconfig.cache
 C:\Users\asp\source\repos\tayyaba\tayyaba\obj\Debug\net7.0\ref\tayyaba.dll
+C:\Users\asp\Documents\GitHub\C-Sir-Haris-\tayyaba\tayyaba\bin\Debug\net7.0\tayyaba.exe
+C:\Users\asp\Documents\GitHub\C-Sir-Haris-\tayyaba\tayyaba\bin\Debug\net7.0\tayyaba.deps.json
+C:\Users\asp\Documents\GitHub\C-Sir-Haris-\tayyaba\tayyaba\bin\Debug\net7.0\tayyaba.runtimeconfig.json
+C:\Users\asp\Documents\GitHub\C-Sir-Haris-\tayyaba\tayyaba\bin\Debug\net7.0\tayyaba.dll
+C:\Users\asp\Documents\GitHub\C-Sir-Haris-\tayyaba\tayyaba\bin\Debug\net7.0\tayyaba.pdb
+C:\Users\asp\Documents\GitHub\C-Sir-Haris-\tayyaba\tayyaba\obj\Debug\net7.0\tayyaba.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asp\Documents\GitHub\C-Sir-Haris-\tayyaba\tayyaba\obj\Debug\net7.0\tayyaba.AssemblyInfoInputs.cache
+C:\Users\asp\Documents\GitHub\C-Sir-Haris-\tayyaba\tayyaba\obj\Debug\net7.0\tayyaba.AssemblyInfo.cs
+C:\Users\asp\Documents\GitHub\C-Sir-Haris-\tayyaba\tayyaba\obj\Debug\net7.0\tayyaba.csproj.CoreCompileInputs.cache
+C:\Users\asp\Documents\GitHub\C-Sir-Haris-\tayyaba\tayyaba\obj\Debug\net7.0\tayyaba.dll
+C:\Users\asp\Documents\GitHub\C-Sir-Haris-\tayyaba\tayyaba\obj\Debug\net7.0\refint\tayyaba.dll
+C:\Users\asp\Documents\GitHub\C-Sir-Haris-\tayyaba\tayyaba\obj\Debug\net7.0\tayyaba.pdb
+C:\Users\asp\Documents\GitHub\C-Sir-Haris-\tayyaba\tayyaba\obj\Debug\net7.0\tayyaba.genruntimeconfig.cache
+C:\Users\asp\Documents\GitHub\C-Sir-Haris-\tayyaba\tayyaba\obj\Debug\net7.0\ref\tayyaba.dll

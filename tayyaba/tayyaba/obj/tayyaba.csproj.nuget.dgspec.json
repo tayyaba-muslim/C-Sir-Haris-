@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asp\\source\\repos\\tayyaba\\tayyaba\\tayyaba.csproj": {}
+    "C:\\Users\\asp\\Documents\\GitHub\\C-Sir-Haris-\\tayyaba\\tayyaba\\tayyaba.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asp\\source\\repos\\tayyaba\\tayyaba\\tayyaba.csproj": {
+    "C:\\Users\\asp\\Documents\\GitHub\\C-Sir-Haris-\\tayyaba\\tayyaba\\tayyaba.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asp\\source\\repos\\tayyaba\\tayyaba\\tayyaba.csproj",
+        "projectUniqueName": "C:\\Users\\asp\\Documents\\GitHub\\C-Sir-Haris-\\tayyaba\\tayyaba\\tayyaba.csproj",
         "projectName": "tayyaba",
-        "projectPath": "C:\\Users\\asp\\source\\repos\\tayyaba\\tayyaba\\tayyaba.csproj",
+        "projectPath": "C:\\Users\\asp\\Documents\\GitHub\\C-Sir-Haris-\\tayyaba\\tayyaba\\tayyaba.csproj",
         "packagesPath": "C:\\Users\\asp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asp\\source\\repos\\tayyaba\\tayyaba\\obj\\",
+        "outputPath": "C:\\Users\\asp\\Documents\\GitHub\\C-Sir-Haris-\\tayyaba\\tayyaba\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
