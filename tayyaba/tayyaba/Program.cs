@@ -844,8 +844,75 @@ using tayyaba;
 //Console.WriteLine(a.isPaid);
 //Console.WriteLine(toyota.regno);
 
-recording rec = new recording();
-rec.Name = "Tayyaba";
-rec.age = 21;
-Console.WriteLine(rec.Name);
-Console.WriteLine(rec.age);
+//recording rec = new recording();
+//rec.Name = "Tayyaba";
+//rec.age = 21;
+//Console.WriteLine(rec.Name); 
+//Console.WriteLine(rec.age);
+
+//Events
+
+//Mycar civic = new Mycar();
+//civic.speedUp += new Mycar.speedCar(Mycar.carMoved);
+//civic.drive();
+
+
+//public class Mycar
+//{
+//    public delegate void speedCar();
+//    public event speedCar speedUp;
+
+//    public int speed = 0;
+
+//    public void drive()
+//    {
+//        for (int i = 0; i < 20; i++)
+//        {
+//            if(i >= 10)
+//                speedUp();
+//                Console.WriteLine("Car is moving at " + i + " mph");
+//            System.Threading.Thread.Sleep(500);
+//        }
+//    }
+//    public static void carMoved()
+//    {
+//        Console.WriteLine("the car speed limit is exceeded");
+//    }
+//}
+
+//Event Task
+
+//Game g1 = new Game();
+//g1.boost += new Game.GameMethod(Game.levelup);
+//g1.play();
+
+//public class Game
+//{
+//    public delegate void GameMethod();
+//    public event GameMethod boost;
+
+//    public int speed = 0;
+
+//    public void play()
+//    {
+//        Console.WriteLine("Please Enter The Name");
+//        var name = "";
+//        do
+//        {
+//            name = Console.ReadLine();
+//            if (name.ToLower() == "tayyaba")
+//            {
+//                boost();
+//                Console.WriteLine(name + " Play The Game");
+//                System.Threading.Thread.Sleep(500);
+//                break;
+//            }
+//        }
+//        while (name != "exit");
+//    }
+//    public static void levelup()
+//    {
+//        Console.WriteLine("Your Level is Up");
+//    }
+//}
+
